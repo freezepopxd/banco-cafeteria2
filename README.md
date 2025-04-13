@@ -29,10 +29,9 @@ CREATE TABLE pedidos (
     total NUMERIC(10, 2),
     produto_id INT REFERENCES produtos(id)
 );
-Dados inseridos
-sql
-Copiar
-Editar
+
+## Dados inseridos
+
 INSERT INTO produtos (nome, preco, descricao) VALUES
 ('Café Expresso', 4.50, 'Café curto e forte'),
 ('Cappuccino', 6.00, 'Com leite vaporizado e canela'),
@@ -42,6 +41,8 @@ INSERT INTO pedidos (data_pedido, total, produto_id) VALUES
 ('2025-04-13', 4.50, 1),
 ('2025-04-13', 9.00, 2),
 ('2025-04-13', 3.00, 3);
+
+
 
 ## 📁 Organização do Projeto
 script.sql: arquivo com os comandos SQL de criação e inserção.
