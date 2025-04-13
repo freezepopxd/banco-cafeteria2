@@ -44,21 +44,4 @@ INSERT INTO pedidos (data_pedido, total, produto_id) VALUES
 
 
 
-## 📁 Organização do Projeto
-script.sql: arquivo com os comandos SQL de criação e inserção.
 
-Versionamento completo com Git, incluindo commit inicial com mensagem descritiva.
-
-## 🔗 Link do Repositório
-Acesse o repositório no GitHub
-
-## 🚀 Tecnologias Utilizadas
-SQL (PostgreSQL)
-
-Git e GitHub
-
-## ✍️ Autor
-Luiz Altino do Nascimento Junior
-Projeto desenvolvido para fins educacionais.
-
----
